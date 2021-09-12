@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.box{
+    position: fixed;
+    left: 610px;
+    top: 300px;
+    border: 3px solid rgb(185, 185, 185);
+    width: 700px;
+    height: 400px;
+    margin: 0;
+    padding: 0px; 
+}
+
+.overlap{
+    border: 0px solid lightseagreen;
+    background-color: lightseagreen;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    padding-top: 45px;
+    padding-left: 30px;
+}
+
+.img_profile{
+    padding-left: 15px;
+}
+
+.main_info{
+    flex-direction: column;
+    padding-top: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.name{
+    padding-bottom: 15px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.city{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 18px;
+}
+
+#ct{
+    padding-left: 10px;
+    padding-top: 0px;
+    text-align;
+    font-size: 25px;
+}
+
+.info{
+    padding-bottom: 15px;
+}
+
+.edit_profile{
+    display: flex;
+    flex-direction: row;
+}
+
+.edit_profile > img{
+    padding-right: 10px;
+}
+
+.img_profile > img{
+    width: 110px;
+}
+
+a{
+    color: deepskyblue;
+}
+
+.city > div > img{
+    width: 16px;
+}
+
+.edit_profile > img{
+    width: 20px;
+}
+
